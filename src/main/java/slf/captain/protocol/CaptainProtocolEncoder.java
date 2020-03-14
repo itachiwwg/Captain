@@ -3,6 +3,7 @@ package slf.captain.protocol;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
+import slf.captain.protocol.messages.CaptainMessage;
 import slf.captain.protocol.messages.CaptainProtocolHeader;
 
 public class CaptainProtocolEncoder extends MessageToByteEncoder<CaptainMessage> {

@@ -1,10 +1,8 @@
-package slf.captain.protocol;
+package slf.captain.protocol.messages;
 
 import slf.captain.protocol.messages.CaptainProtocolHeader;
 
 /**
- *
- *
  *
  */
 public class CaptainMessage {

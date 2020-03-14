@@ -2,6 +2,7 @@ package slf.captain.protocol;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import slf.captain.protocol.messages.CaptainMessage;
 
 public class ClientHandler extends SimpleChannelInboundHandler<CaptainMessage> {
     @Override
